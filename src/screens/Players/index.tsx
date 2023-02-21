@@ -1,4 +1,5 @@
 import { Header } from "@components/Header";
+import { ButtonIcon } from "@components/ButtonIcon";
 import { Highlight } from "@components/Highlight";
 import { Container } from "./styles";
 
@@ -10,6 +11,7 @@ export function Players() {
         title="Nome da turma"
         subtitle="Adicione a galera e separe os times"
       />
+      <ButtonIcon />
     </Container>
   );
 }
